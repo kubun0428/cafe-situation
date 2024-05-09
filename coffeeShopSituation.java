@@ -14,5 +14,7 @@ public class coffeeShopSituation {
         customer2.orderCoffee(casher, "Americano", false);
         customer2.orderCoffee(casher, "Cafe latte", false);
         System.out.println(customer2.mood+"\n");
+
+        System.out.printf("야호! %d원 벌었다!", casher.sales);
     }
 }
